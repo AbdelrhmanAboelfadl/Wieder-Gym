@@ -1,3 +1,14 @@
+::-webkit-scrollbar{
+  width: 8px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(77, 76, 76);
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--main-color);
+    border-radius: 10px;
+    box-shadow: rgba(255, 0, 0, 0.4) 0px 10px 90px;
+}
 body nav{
     position: fixed;
     width: 100%;
