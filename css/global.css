@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{  
+    font-family: "Archivo", sans-serif;
+}
+:root{
+    --main-color:red;
+    --secound-color:#c2c2c2;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: "Oswald", sans-serif;
+}
+
+img{
+    width: 100%;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+nav ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+   color: white;
+}
+#About{
+    background-color:#151515;
+    padding-top: 20px;
+}
+body section#Coach{
+    padding-top: 30px;
+    background-color:black;
+}
+.fa-facebook-f{
+    color: #1877F2;
+   
+}
+.fa-whatsapp{
+    color: #25D366;
+}
+.fa-instagram{
+    color: #E4405F;
+}
+.fa-twitter{
+    color: #1DA1F2;
+}
+.title{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+    color: white;
+    padding-top: 10px;
+    font-size: 30px;
+    width: 100%;
+}
+.title h2{
+    margin-bottom: 10px;
+}
+.title .imgIcon{
+    width: 50px;
+    position: relative;
+}
+.title .imgIcon:after,
+.title .imgIcon::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 3px;
+     top: 50%;
+    background-color: red;
+}
+.title .imgIcon:after{ 
+    left: 100%;
+    margin-left: 5px;
+    border-radius: 0pc 10px 10px 0px;
+}
+.title .imgIcon::before{
+        right: 100%;
+        margin-right: 5px;
+         border-radius:10px 0px 0px 10px;
+}
+body #Program{
+    padding-top:30px ;
+    background-color: #151515;
+}
+.holographic-card i{
+    font-size: 15px;
+    padding-top: 5px;
+    margin-left: 5px;
+    transition: all 0.5s;
+    color: var(--main-color);
+}
+.holographic-card:hover i{
+    margin-left: 10px;
+}
+body section#Contact{
+    background-color: black;
+    padding-top: 30px;
+}
+body #Time{
+    background-color: #151515;
+    padding-top: 30px;
+}
+body footer{
+    background-color: black;
+}
+body #Time span .hour{
+    color: var(--main-color);
+}
+.linkscontainer.active{
+    display: flex!important;
+    flex-direction: column!important;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    width: 260px;
+    height: 310px!important;
+    border-radius: 10px;
+    border: 3px solid var(--main-color)!important;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    padding: 10px;
+}
+.linkscontainer.active ul{
+    flex-direction: column!important;
+}
+.linkscontainer.active li{
+    padding: 10px;
+    margin-right: 0!important;
+}

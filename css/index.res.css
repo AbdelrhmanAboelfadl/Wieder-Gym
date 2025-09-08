@@ -1,0 +1,398 @@
+@media (max-width: 1300px) {
+body header div.container {
+    padding-top: 79px;
+}
+body header div.container .part1 {
+    width: 100%;
+}
+body header div.container .part2 .img {
+    width: 117px;
+    height: 117px;
+    margin-top: 23px;
+}
+body header div.container .part1 h1 {
+    font-size: 35px; 
+}
+.fa-dumbbell {
+    padding: 3px 4px 3.1px 3px;
+    font-size: 8px;
+}
+body header div.container .part1 p {
+    font-size: 12px;
+}
+body header div.container .part1 button {
+     padding: 9px 14px;
+}
+body nav div.container .linkscontainer{
+    display: flex!important;
+    flex-direction: column!important;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    width: 260px;
+    height: 0px;
+    border-radius: 10px;
+    border: 0px solid transparent;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.linkscontainer ul{
+    flex-direction: column!important;
+}
+.linkscontainer li{
+    padding: 10px;
+    margin-right: 0!important;
+}
+
+body nav div.container {
+    width: 90%;
+}
+body nav div.container .logo {
+    width: 69px;
+    margin-left: 0;
+}
+body nav div.container .links{
+    width: 50%;
+   display: flex;
+   justify-content:end;
+   align-items: end;
+}
+body nav div.container button{
+    display: block;
+    background-color: transparent;
+    border: 2px solid var(--main-color);
+    padding: 5px 10px;
+    color:var(--main-color);
+    border-radius: 5px;
+    font-size: 15px;
+    margin-right: 20px;
+    
+}
+body section.About .container .part1 {
+    width: 100%;
+}
+body section.About .container .part1 .frame {
+    width: 238px;
+    height: 239px;
+    margin: auto;
+}
+body section.About .container .part1 .frame .layout i {
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    padding: 15px;
+}
+body section.About .container .part2 {
+    width: 100%;
+}
+body section.About .container .part2 .textcontanier {
+    padding: 20px;
+}
+body section.About .container .part {
+    padding: 26px 0px;
+}
+body section.About .container .part2 .img img {
+    width: 54%;
+}
+body section.About .container .part2 .textcontanier .hand
+{
+    width: 53px;
+    top: 26px;
+}
+body section#Coach .container{width: 90%;}
+body section#Coach .container .coacher {
+    flex-basis: 100%;
+}
+body #Program .container {
+    width: 90%;
+}
+body section#Contact form {
+    padding-top: 40px;
+}
+body section#Contact form .lable1 {
+    flex-basis: 100%;
+    flex-wrap: wrap;
+}
+body section#Contact form .lable {
+    width: 100%;
+}
+body section#Contact form .lable4 button >* {
+    width: 100%;
+}
+body #Time .container .time {
+    width: 100%;
+    margin-bottom: 20px;
+}
+body #Time .container .timeimg{
+    width: 100%;
+    justify-content: center;
+}
+body #Time .container .times h4,
+body #Time .container .times p{
+    font-size: 13px;
+}
+body footer .copyrights p {
+    font-size: 13px;
+}
+body header div.aboutarrow i {
+    color: var(--main-color);
+    font-size: 16px;
+    height: 48px;
+    width: 21px;
+    animation-name: animation2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0px;
+}
+body #Program .container .box{
+    padding: 0px 10px;
+    margin-block: 5px;
+}
+body #Program .container .box >* {
+    margin-bottom: 10px;
+}
+body #Program .container .box button{
+   padding: 7px;
+}
+body #Home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body #Home .container{
+    padding-top: 70px;
+    width: 90%;
+}
+body #Home .container .part1{
+    width: 100%;
+    padding: 10px;
+}
+body #Home .container .part1 .loginParent{
+    width: 100%;
+}
+body #Home .container .part2{
+    display: none;
+}
+body #Home .widerText{
+    display: none;
+}
+body #Home .container .part1 .signUpParent {
+    width: 300px;
+}
+.popUp .box {
+    width: 300px;
+}
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+body nav div.container {
+        width: 90%;
+}
+body nav div.container .linkscontainer{
+    width: 350px;
+}
+body section#Coach .container .coacher {
+    flex-basis: 80%;
+}
+body #Program .container .box {
+    width: 360px;
+}
+body footer .copyrights p {
+    font-size: 14px;
+}
+body #Home .container .part1 .loginParent{
+    width:300px;
+}
+.popUp .box {
+    width: 350px;
+}
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+body header div.container .part1 h1 {
+        font-size: 50px;
+    }
+body nav div.container .linkscontainer{
+    width: 380px;
+    top: 90px;
+}
+body header div.container .part1 p {
+        font-size: 15px;
+    }
+body header div.container .part1 button {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+.fa-dumbbell {
+     padding: 4px 5px 4.1px 4px;
+}
+body nav div.container .logo {
+        width: 80px;
+        margin-left: 0;
+    }
+body section.About .container .part1 .frame {
+        width: 260px;
+        height: 255px;
+        margin: auto;
+}
+body section#Coach .container .coacher {
+    flex-basis: 60%;
+}
+body #Home .container .part1 .loginParent{
+    width:350px;
+}
+body #Home .container .part1 .signUpParent {
+width: 350px;
+}
+.popUp .box {
+    width: 390px;
+}
+}
+@media (min-width: 769px) and (max-width: 1300px) {
+body nav div.container  button{
+    display: none;
+}
+body nav div.container .linkscontainer{
+    display: flex!important;
+    flex-direction: initial!important;
+    justify-content: center;
+    align-items: center;
+    position: initial!important;
+    transform:initial!important;
+    background-color:initial!important;
+    width:initial!important;
+    height:initial!important;
+    border-radius: initial!important;
+    border: initial!important;
+    box-shadow:initial!important;
+    overflow: initial!important;
+    transition: all 0.5s;
+}
+.linkscontainer ul{
+    flex-direction: initial!important;
+}
+.linkscontainer li{
+    padding:10px;
+    margin-right: initial!important;
+}
+    body header div.container .part {
+        width: 50%;
+}
+body header div.container .part1 h1 {
+    font-size: 37px;
+}
+body header div.container .part1 p {
+        font-size: 12px;
+}
+body header div.container .part1 button {
+    font-size: 11px;
+    padding: 8px 10px;
+}
+body section.About .container .part1 {
+        width: 50%;
+ }
+body section.About .container .part2 {
+        width: 50%;
+}
+body section.About .container .part2 p {
+    color: white;
+    font-size: 12px;
+    line-height: 25px;
+    font-weight: 300;
+}
+body .About .container{
+    width: 85%;
+}
+body section#Coach .container .coacher {
+        flex-basis: 50%;
+    }
+body section#Contact form .lable {
+width: 90%;
+}
+body section#Contact form .lable1{
+    flex-wrap: nowrap;
+}
+body section#Contact form .lable1 >*{
+    flex-basis: 50%;
+}
+body #Time .container .time {
+    width: 50%;
+}
+body #Time .container .timeimg{
+    width: 50%;
+    justify-content: flex-end;
+}
+body footer .copyrights p {
+    font-size: 15px;
+}
+body #Home .container .part1{
+    width: 50%;
+}
+body #Home .container .part2{
+    display: flex;
+    height: 100%;
+}
+body #Home .container .part1 .loginParent{
+        width: 100%;;
+}
+body #Home .container .part2 .img{
+    width: 250px!important;
+    height: 250px;
+}
+body #Home .container .part2 .img{
+    width: 100%;
+}
+.popUp .box {
+    width: 410px;
+}
+}
+
+@media (min-width: 993px) and (max-width: 1300px) {
+body header div.container .part1 h1 {
+        font-size: 50px;
+}
+body header div.container .part1 p {
+        font-size: 14px;
+}
+body header div.container .part1 button {
+        font-size: 14px;
+        padding: 8px 10px;
+}
+body header div.container .part2 .img {
+        width: 200px;
+        height: 200px;
+}
+
+
+body section.About .container .part2 p {
+        color: white;
+        font-size: 14px;
+        line-height: 25px;
+        font-weight: 300;
+}
+body section#Coach .container .coacher {
+    flex-basis: 33%;
+}
+body #Program .container .box {
+    width: 300px;
+}
+body section#Contact form .lable {
+    width: 70%;
+}
+ body #Home .container .part1 .loginParent{
+        width: 380px;;
+}
+}
+@media (min-width: 1181px) and (max-width: 1300px){
+    body #Home .container .part1 .loginParent{
+        width: 400px;;
+}
+}
