@@ -1,7 +1,5 @@
 function opennav(){
-    btnToOpenNav.addEventListener("click",function(){
-        navBar.classList.toggle("active");
-    })
+    navBar.classList.toggle("active");
 }
 function closeNav(){
     body.addEventListener("click",function(){
