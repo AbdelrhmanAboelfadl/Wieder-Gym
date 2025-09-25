@@ -66,6 +66,17 @@ body nav div.container .links ul li::after{
     opacity: 0;
     transition: all 0.5s;
 }
+body nav div.container .links ul li.active::after {
+    width: 100%;
+    left: 0;
+    opacity: 1;
+}
+body nav div.container .links ul li.active a {
+    color: var(--main-color);
+}
+body nav div.container .links ul li.active i {
+    color: var(--main-color);
+}
 body nav div.container .links ul li:hover a{
     color: var(--main-color);
 }
