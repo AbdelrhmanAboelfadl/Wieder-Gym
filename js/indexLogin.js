@@ -6,6 +6,7 @@ let btnToOpenNav=document.querySelector("body nav div.container button");
 let navbar=document.querySelector("nav");
 let navBar=document.querySelector(".linkscontainer");
 let body=document; 
+let link = document.querySelector("nav li:last-child");
 
 openSignUp();
 
@@ -16,3 +17,5 @@ btnToOpenNav.addEventListener("click",opennav);
 body.addEventListener("click",closeNav);
 
 stopNavToHide();
+
+link.classList.add("active");
