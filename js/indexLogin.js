@@ -7,6 +7,12 @@ let navbar=document.querySelector("nav");
 let navBar=document.querySelector(".linkscontainer");
 let body=document; 
 let link = document.querySelector("nav li:last-child");
+let LoadingPage = document.querySelector(".loading");
+window.addEventListener("load",() => {
+    setTimeout(() => {
+        LoadingPage.classList.add("loaded");
+    },2000)
+})
 
 openSignUp();
 
